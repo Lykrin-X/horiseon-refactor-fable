@@ -74,6 +74,24 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
+/*Removed class, merged repeating code for main articles, assigned selector to <article> element*/
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Removed class, merged repeating code for article images, assigned selector to article img*/
+article img {
+    max-height: 200px;
+}
+/*Removed class, merged repeating code for article headings, moved selector from <article> to <h2> element*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 /*Removed class, assigned selector to <aside> element*/
 aside {
     margin-right: 20px;
@@ -100,24 +118,6 @@ section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-/*Removed class, merged repeating code for main articles, assigned selector to <article> element*/
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*Removed class, merged repeating code for article images, assigned selector to article img*/
-article img {
-    max-height: 200px;
-}
-/*Removed class, merged repeating code for article headings, moved selector from <article> to <h2> element*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 /*Removed class, assigned selector to <footer> element*/
 footer {
