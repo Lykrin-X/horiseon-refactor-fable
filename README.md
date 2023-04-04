@@ -1,4 +1,4 @@
-# Horiseon - Code Refactor
+# Horiseon - Code Refactor O-
 
 ## Description
 The purpose of this project was to improve upon the starter code by implementing semantic HTML elements and DRY (Don't Repeat Yourself) coding principles within the HTML and CSS files. In addition, broken links were repaired and comments added to CSS for ease of comprehension alongside alt attributes to images for accessibility. I learned one of the way links are made in a webpage and the importance of placing comments within code during this project.
